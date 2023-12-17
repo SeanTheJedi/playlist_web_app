@@ -1,0 +1,20 @@
+<main class="home-main">
+    <h1>My Playlist</h1>
+    <div class="music-container">
+
+        {{!-- begining of the loop of song items --}}
+        {{#each songs}}
+         <div class="music-item">
+            <div class="song-details">
+                <p>Song Title : {{this.title}}</p>
+            </div>
+            <form action="/delSong/{{this.id}}" method="post" class="form">
+                <button type="submit" class="add-btn"> Remove </button>
+            </form>
+        </div>
+        {{/each}}
+        {{!-- end of the loop --}}
+    
+    </div>
+    
+</main>

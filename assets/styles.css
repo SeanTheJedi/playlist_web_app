@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    width: 100%;
+    padding: 20px 100px;
+    background-color: #5A14A6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navMenu {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header > p {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    font-family: 'Sedgwick Ave', cursive;
+    margin-bottom: 10px;
+}
+
+.navMenu > li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.navMenu > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.home-main {
+    padding: 0px 100px;
+}
+
+h1 {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.music-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.music-item {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    justify-content: space-between;
+}
+
+.artistThumbnail {
+    width: 25%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.song-details {
+    width: 50%;
+    margin: auto 0;
+}
+
+.form{
+    width: 25%;
+    margin: auto 0;
+    display: flex;
+    justify-content: end;
+}
+
+.add-btn {
+    background-color: #5A14A6;
+    color:white;
+    text-decoration:none;
+    padding-top:12px;
+    padding-bottom:12px;
+    text-transform: uppercase;
+    /* display:block; */
+    text-align:center;
+    width:150px; 
+    font-weight:bold; 
+}
